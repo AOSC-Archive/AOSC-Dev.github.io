@@ -33,5 +33,6 @@ misaka $i >> $T
 echo '</div></body></html>' >> $T
 
 # Clean your butt
-rm *.tmp
+rm *.tmp &>/dev/null &
 done
+
