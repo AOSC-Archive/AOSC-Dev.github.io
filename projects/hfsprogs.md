@@ -11,7 +11,8 @@ HFS+ with the Unix core of their operating system, Darwin.
 This package is a port of Apple's tools for HFS+ filesystems.
 
 For users, HFS+ seems to be a good compromise to carry files between
-MacOS X and Linux Machines, as HFS+ doesn't suffer the problems ofFAT32 like:
+MacOS X and Linux Machines, as HFS+ doesn't suffer the problems of FAT32 like:
+
 - huge space waste (in slack space as devices grow faster);
 - ability to create files that are more than 4GB in size (especially good for those
 working with multimedia and that need to carry large ISO files);
