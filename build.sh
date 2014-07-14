@@ -16,8 +16,7 @@ echo "$i -> $T"
 
 md_prep $i
 
-echo '<html>
-<head>
+echo '<html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="yue.css" />
@@ -26,9 +25,8 @@ echo '<html>
 body { margin: 0; padding: 0.4em 1em 6em; background: #fff; }
 .yue { max-width: 650px; margin: 0 auto; }
 .comment { display:none; }
-</style>
-</head>
-<body><!-- Generated using misaka and AOSC /build.sh, from ' "$i" ' -->
+</style></head>
+<body><!-- Generated using misaka and AOSC /build.sh with preprocessor, from' "{${i#.}%.tmp}" '-->
 <div class="yue">' > $T
 misaka $i >> $T
 echo '</div></body></html>' >> $T
