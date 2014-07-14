@@ -4,7 +4,7 @@
 # Preprocessor: Allows use of title override at first line.
 md_prep(){
   title=$(head -n 1 $1)
-  if ! (echo "$title" | grep "#")
+  if (echo "$title" | grep "^#")
   then title=$(echo $title | sed 's/#//g')
   else tail -n +2 $1 > $1.tmp; i=$1.tmp;
   fi
