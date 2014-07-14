@@ -10,11 +10,8 @@ md_prep(){
   fi
 }
 
-for i in `find -iname \*.md`
-do
-
-T="${i}.html"
-
+for i in `find -iname \*.md`; do
+T="${i%%.md*}.html"
 echo "$i -> $T"
 
 md_prep $i
