@@ -19,7 +19,7 @@ md_prep $i
 echo '<html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-<link rel="stylesheet" href="yue.css" />
+<link rel="stylesheet" href="/yue.css" />
 <title>' "$title" '</title>
 <style type="text/css">
 body { margin: 0; padding: 0.4em 1em 6em; background: #fff; }
