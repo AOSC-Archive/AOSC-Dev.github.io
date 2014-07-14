@@ -7,3 +7,6 @@ This is the GitHub pages for [AOSC-Dev](https://github.com/AOSC-Dev/).
  + [hfsprogs](/projects/hfsprogs.html)
 
 ##Developers
+
+
+<div class="github-fork-ribbon-wrapper right-bottom"><div class="github-fork-ribbon"><a href="https://github.com/AOSC-Dev/AOSC-Dev.github.io/">Things behind this</a></div></div>

@@ -25,3 +25,5 @@ systems since the beginning.
 
 Originally [diskdev-cmds](https://opensource.apple.com/tarballs/diskdev_cmds/).<br />
 - *Change `tarballs` to `source` if you want to browse the source.*
+
+<div class="github-fork-ribbon-wrapper left-bottom"><div class="github-fork-ribbon"><a href="https://github.com/AOSC-Dev/hfsprogs/">Fork me on GitHub</a></div></div>
