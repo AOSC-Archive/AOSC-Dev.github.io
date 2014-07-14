@@ -25,7 +25,6 @@ echo '<html><head>
 <style type="text/css">
 body { margin: 0; padding: 0.4em 1em 6em; background: #fff; }
 .yue { max-width: 650px; margin: 0 auto; }
-.comment { display:none; }
 </style></head>
 <body><!-- Generated using misaka and AOSC /build.sh with preprocessor, from' "{${i#.}%.tmp}" '-->
 <div class="yue">' > $T
@@ -35,4 +34,3 @@ echo '</div></body></html>' >> $T
 # Clean your butt
 rm ${i%.tmp}.tmp &>/dev/null &
 done
-

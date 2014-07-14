@@ -1,8 +1,7 @@
 hfsprogs at AOSC
 #hfsprogs, the userspace hfs utils for Linux
 [hfsprogs](https://github.com/AOSC-Dev/hfsprogs) mainly contains mkfs and fsck for HFS and HFS+ file systems.
-<comment>The title override at the top of file will be automatically cleared by the preprocessor.
-TODOs include adding a fork me on GitHub button.</comment>
+<comment>The title override at the top of file will be automatically cleared by the preprocessor.</comment>
 
 The HFS+ file system used by Apple Computer for their Mac OS is
 supported by the Linux kernel.  Apple provides mkfs and fsck for
